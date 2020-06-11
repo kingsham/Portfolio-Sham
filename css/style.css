@@ -1,0 +1,84 @@
+.logo{
+    border-radius: 20px;
+    border-color: azure;
+}
+body{
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+
+}
+
+.hm-home{
+    color: rgb(210, 61, 96) !important;
+
+}
+.nav-bio{
+    color: rgb(210, 61, 96) !important;
+
+}
+.nav-contact{
+    color: rgb(210, 61, 96) !important;
+
+}
+.nav-projects{
+    color: rgb(210, 61, 96) !important;
+
+}
+.navbar ul li a:hover{
+    background:white;
+    border-radius: 2px;
+}
+#display{
+    background:url('../imgs/coverr.png.jpg')
+     no-repeat center/cover;
+     background-attachment: fixed;
+     height: 100vh;
+     color: white;
+     opacity: 0.9;
+}
+.explain{
+    padding-bottom: 45px;
+    font-family: 'Teko', sans-serif;
+    font-size:65px;
+    text-align: center;
+    padding-top: 20rem;
+    
+ }
+ #container{
+    text-align: center;
+}
+.btn-sm{
+
+    padding: 0.5rem 2rem;
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    text-align: right;
+    border-radius: 10px;
+
+
+
+ }
+
+ section#about{
+    background-color: rgb(216, 205, 205);
+    background-attachment: fixed;
+}
+section#projects{
+    background-attachment: fixed;
+    background: url('../imgs/macbook-air-apple-pen-notes-7377.jpg')no-repeat
+    center/cover;
+    height: 100vh;
+
+}
+section#achievements{
+    background-attachment: fixed;
+    background:url("../imgs/accomplishment-accuracy-accurate-achievement-226579.jpg")
+    no-repeat center/cover;
+    height: 100vh;
+}
+section{
+    padding-bottom: 5px;
+}
+.container{
+    text-align: center;
+}
