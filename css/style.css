@@ -1,3 +1,9 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 .logo{
     border-radius: 20px;
     border-color: azure;
@@ -27,6 +33,11 @@ body{
 .navbar ul li a:hover{
     background:white;
     border-radius: 2px;
+}
+.navbar-brand img{
+    height: 145px;
+    padding-left: 45px;
+
 }
 #display{
     background:url('../imgs/coverr.png.jpg')
@@ -60,20 +71,22 @@ body{
  }
 
  section#about{
-    background-color: rgb(216, 205, 205);
+    background-color: rgb(255, 254, 254);
     background-attachment: fixed;
 }
 section#projects{
-    background-attachment: fixed;
+
     background: url('../imgs/macbook-air-apple-pen-notes-7377.jpg')no-repeat
     center/cover;
+    background-attachment: fixed;
     height: 100vh;
 
 }
 section#achievements{
-    background-attachment: fixed;
+
     background:url("../imgs/accomplishment-accuracy-accurate-achievement-226579.jpg")
     no-repeat center/cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 section{
@@ -81,4 +94,29 @@ section{
 }
 .container{
     text-align: center;
+}
+.container-two{
+    text-align: center;
+}
+.container-three{
+    text-align: center;
+}
+.container-four{
+    text-align: center;
+}
+.card-body{
+    background-color: rgba(248, 234, 234, 0.849);
+}
+.beat{
+    padding-bottom: 15px;
+}
+#achiv{
+    color:white;
+}
+.year{
+    color: white;
+}
+.fa-trophy{
+    color: gold;
+
 }
