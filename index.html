@@ -9,6 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
 <body> <div class="container-fluid pr-0 pl-0">
     <nav class="navbar sticky-top navbar-expand-md navbar-light bg-dark" id="navbar">
         <a class="navbar-brand" href="#">
-            <img src="./imgs/logo-0.png" class="logo" width="120rem" height="100rem"class="d-inline-block align-top" alt="" loading="lazy">
+        <img src="./imgs/logo-0.png" class="logo" width="140rem" height="120rem"class="d-inline-block align-top" alt="" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -59,15 +60,17 @@
 
 <div class="container-fluid pr-0 pl-0">
           <section id="about" class="text-center">
-            <h1> About Me 🧑🏾‍🦱</h1>
+            <h1> About </h1>
 
             <div class="text-center">
                 <img src="./imgs/profesJPG.JPG" width= "305px" height="275px" class="rounded img-fluid img-thumbnail" alt="...">
               </div>
-
-              <p data-aos="zoom-out">Hi! My name is Shamar Knibbs I am 25 years old and studying to pursue my bachelors degree in computer science.
-          I love creating, software development allows me to do so. I've created several projects in the past to learn and enhance my skills as an upcoming software developer. I gained real world experience by completing 3 internships so far in this field.
+            <div class="media-body">
+              <p data-aos="zoom-out" class="mb-0">Hi! My name is Shamar Knibbs I am from Bronx,New York and studying to pursue my bachelors degree in computer science.
+          I am very passionate love creating applications as a software developer. . This is only the beginning, enjoy !!! 
+          
               </p>
+            </div>
 
             
           </section>
@@ -79,13 +82,15 @@
             <div class="d-flex flex-row bd-highlight mb-3  d-flex justify-content-between">
                 <div class="card" data-aos="zoom-in" data-aos-duration="2000" style="width: 25rem;">
                     <img src="./imgs/beat.png" class="card-img-top" alt="...">
-                    <div class="card-body shadow p-3 rounded">
+                    <div class="card-body shadow p-3 rounded beat">
                       <h5 class="card-title text-center">Beat Machine</h5>
                      <p id="mac" class="text-center"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i> Tools used: HTML , CSS , and Javascript <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> </p>
-
+                        <div class="text-center">
                       <a href="https://kingsham.github.io/Beat-Machine/" class="btn btn-primary">Click here</a>
                     </div>
+                </div>
                   </div>
+                  
                   <div class="card" data-aos="zoom-in" data-aos-duration="4000" style="width: 25rem;">
                     <img src="./imgs/lights-out.png" class="card-img-top" alt="...">
                     <div class=" card-body shadow p-3 rounded">
@@ -93,8 +98,10 @@
                       <div id="container">
                       <p id="neon" class="text-center"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i> Tools used: React and CSS <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> </p>
                       </div>
+                      <div class="container-four">
                       <a href="https://kingsham.github.io/Lights-Out/" class="btn btn-primary">Click here</a>
                     </div>
+                </div>
                   </div>
 
                   <div class="card"   data-aos="zoom-in" data-aos-duration="6000" style="width: 25rem;">
@@ -102,30 +109,31 @@
                     <div class="card-body shadow p-3 rounded">
                       <h5 class="card-title text-center">Gif Search</h5>
                       <p id="glow" class="text-center"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>  Tools used: React and CSS <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> </p>
+                      <div class="container-three">
                       <a href="https://kingsham.github.io/GIF-Search/" class="btn btn-primary">Click here</a>
                     </div>
                   </div>
-            
+                </div>
             
             </div>
-            <div class="d-flex flex-row  bd-highlight mb-3 d-flex justify-content-around">
+            <div class="d-flex flex-row  bd-highlight mb-3 d-flex justify-content-around row-two">
             <div class="card" data-aos="zoom-in"  data-aos-duration= "8000" style="width: 25rem;">
                 <img src="./imgs/pokemon.png" class="card-img-top" alt="...">
                 <div class="card-body shadow p-3 rounded">
                   <h5 class="card-title text-center">Pokemon</h5>
                   <p class="text-center"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i> Tools used: React and CSS <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> </p>
-            
+                  <div class="container-two">
                   <a href="https://github.com/kingsham/Pokemon" class="btn btn-primary">Click here</a>
                 </div>
               </div>
-            
+            </div>
               <div class="card " data-aos="zoom-in" data-aos-duration="16000" style="width: 25rem;">
                 <img src="./imgs/img-mod.png" class="card-img-top" alt="...">
                 <div class="card-body shadow p-3 rounded">
                   <h5 class="card-title text-center">Image Modifier</h5>
                   <p class="text-center"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i> Tools used: HTML/CSS and Javascript <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> </p>
             <div class="container">
-                  <a href="https://github.com/kingsham/Pokemon" class="btn btn-primary">Click here</a>
+                  <a href="https://github.com/kingsham/The-Image-Modifier" class="btn btn-primary">Click here</a>
                 </div>
                 </div>
               </div>
@@ -140,7 +148,32 @@
   
       <div class="container-fluid pr-0 pl-0 pt-0">
           <section id="achievements">
-              <h2>Achievements</h2>
+              <h1 id="achiv" class="text-center">Achievements</h1>
+              <h3 class="year">2020</h3>
+              <div class="card-deck">
+                <div class="card">
+                  <img src="./imgs/TTP.png" class="card-img-top" alt="...">
+                  <div class="card-body border border-danger">
+                    <h5 class="card-title">Tech Talent Pipeline</h5>
+                    <i class="fa fa-trophy" aria-hidden="true"></i><p class="card-text">This badge is bestowed upon Lehman College Computer Science students who have completed the CUNY 2X Tech Talent Pipeline Residency.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated a month ago</small>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <img src="./imgs/Ohub.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">OHUB X SWSW Scholar </h5>
+                   👨🏾‍🎓✊🏾 <p class="card-text">The cohort is selected from OHUB’s growing membership of 5,000+ student members and young professionals at nearly 351+ colleges and universities, including the majority of Historically Black Colleges and Universities (HBCU’s).</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated four months ago</small>
+                  </div>
+                </div>
+              </div>
+              
 
           </section>
           </div>
@@ -151,6 +184,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://use.fontawesome.com/c3e2dd17e7.js"></script>
+
 <script>
 AOS.init({
     duration:2000
