@@ -1,0 +1,18 @@
+@media (max-width: 375px ){
+    section#projects {
+      height: 260vh !important;
+    }
+}
+@media (max-width:522px){
+    section#projects{
+        height:240vh;
+
+    }
+    .d-flex{
+        flex-direction: column !important;
+
+    }
+    .beat{
+        padding-bottom: 20px;
+    }
+}
