@@ -1,6 +1,17 @@
 @media (max-width: 375px ){
+    .collapse:not(.show){
+        display: none;
+    }
+    ul{
+        text-align:end ;
+    }
     section#projects {
       height: 260vh !important;
+}
+
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
     }
 }
 @media (max-width:522px){
@@ -9,10 +20,14 @@
 
     }
     .d-flex{
+      
         flex-direction: column !important;
+        
+       
 
     }
     .beat{
         padding-bottom: 20px;
     }
+    
 }
